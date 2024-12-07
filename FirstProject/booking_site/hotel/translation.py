@@ -1,4 +1,4 @@
-from .models import Hotel, Room, Review, Booking
+from .models import Hotel, Room
 from modeltranslation.translator import TranslationOptions, register
 
 

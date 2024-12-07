@@ -28,7 +28,7 @@ urlpatterns = [
                                                                'delete': 'destroy'}), name='hotel_image_detail'),
 
     path('room_photos/', RoomImageViewSet.as_view({'get': 'list', 'post': 'create'}), name='room_image_list'),
-    path('room_hoptos/<int:pk>/', RoomImageViewSet.as_view({'get': 'retrieve', 'put': 'update',
+    path('room_photos/<int:pk>/', RoomImageViewSet.as_view({'get': 'retrieve', 'put': 'update',
                                                              'delete': 'destroy'}), name='room_image_detail'),
 
 ]

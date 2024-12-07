@@ -20,7 +20,7 @@ class UserProfile(AbstractUser):
 
 
 class Hotel(models.Model):
-    hotel_name = models.CharField(max_length=32)
+    hotel_name = models.CharField(max_length=100)
     hotel_address = models.CharField(max_length=64)
     description = models.TextField()
     city = models.CharField(max_length=64)

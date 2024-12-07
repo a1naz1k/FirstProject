@@ -14,7 +14,7 @@ class RoomImageInline(admin.TabularInline):
     extra = 1
 
 
-class HotellAdmin(admin.ModelAdmin):
+class HotelAdmin(admin.ModelAdmin):
     inlines = [HotelImageInline]
 
 
